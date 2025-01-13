@@ -1,0 +1,106 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F9F9F9;
+    color: #333;
+}
+
+.intro-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.intro-content {
+    max-width: 50%;
+}
+
+.intro-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.intro-content p {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+}
+
+.intro-content a {
+    text-decoration: none;
+    color: white;
+    background-color: #00b4d8;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.intro-content a:hover {
+    font-style: italic;
+    color: #0077b6;
+}
+
+.intro-image {
+  max-width: 50%;
+}
+
+.intro-image img {
+    max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.intro-table {
+  padding: 20px;
+  background-color: white;
+  margin: 20px auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.intro-table h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+    color: #0077b6;
+    cursor: pointer;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    pad: 10px;
+    text-align: left;
+}
+
+table th {
+    background-color: #00b4d8;
+    color: white;
+}
+
+table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+button {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    background-color: #0077b8;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+    text-align: center;
+}
+
+button:hover {
+    background-color: #005f8a;
+}
